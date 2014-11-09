@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<model-config version="2.2.0" model="ODROID-U3-REF">
+	<platform>
+		<key name="tizen.org/system/model_name" type="string">ODROID-U3</key>
+		<key name="tizen.org/system/platform.name" type="string">Tizen</key>
+		<key name="tizen.org/feature/platform.version" type="string">2.2</key>
+		<key name="tizen.org/system/platform.processor" type="string">exynos4412</key>
+
+		<key name="tizen.org/feature/camera" type="bool">false</key>
+		<key name="tizen.org/feature/camera.back" type="bool">false</key>
+		<key name="tizen.org/feature/camera.back.flash" type="bool">false</key>
+		<key name="tizen.org/feature/camera.front" type="bool">false</key>
+		<key name="tizen.org/feature/camera.front.flash" type="bool">false</key>
+
+		<key name="tizen.org/feature/database.encryption" type="bool">false</key>
+		<key name="tizen.org/feature/fmradio" type="bool">false</key>
+		<key name="tizen.org/feature/graphics.acceleration" type="bool">true</key>
+
+		<key name="tizen.org/feature/input.keyboard" type="bool">true</key>
+		<key name="tizen.org/feature/input.keyboard.layout" type="string">qwerty</key>
+
+		<key name="tizen.org/feature/location" type="bool">true</key>
+		<key name="tizen.org/feature/location.gps" type="bool">true</key>
+		<key name="tizen.org/feature/location.wps" type="bool">true</key>
+
+		<key name="tizen.org/feature/microphone" type="bool">false</key>
+
+		<key name="tizen.org/feature/multi_point_touch.pinch_zoom" type="bool">true</key>
+		<key name="tizen.org/feature/multi_point_touch.point_count" type="int">10</key>
+
+		<key name="tizen.org/feature/network.bluetooth" type="bool">true</key>
+		<key name="tizen.org/feature/network.nfc" type="bool">false</key>
+		<key name="tizen.org/feature/network.nfc.reserved_push" type="bool">false</key>
+
+		<key name="tizen.org/feature/network.push" type="bool">true</key>
+		<key name="tizen.org/feature/network.secure_element" type="bool">true</key>
+
+		<key name="tizen.org/feature/network.telephony" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.sms.cbs" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.sms" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.mms" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.cdma" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.edge" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.gprs" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.gsm" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.hsdpa" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.hspa" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.hsupa" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.lte" type="bool">false</key>
+		<key name="tizen.org/feature/network.telephony.service.umts" type="bool">false</key>
+
+		<key name="tizen.org/feature/network.wifi" type="bool">true</key>
+		<key name="tizen.org/feature/network.wifi.direct" type="bool">true</key>
+		<key name="tizen.org/feature/opengles" type="bool">true</key>
+		<key name="tizen.org/feature/opengles.texture_format.3dc" type="bool">false</key>
+		<key name="tizen.org/feature/opengles.texture_format.atc" type="bool">false</key>
+		<key name="tizen.org/feature/opengles.texture_format.etc" type="bool">true</key>
+		<key name="tizen.org/feature/opengles.texture_format.ptc" type="bool">false</key>
+		<key name="tizen.org/feature/opengles.texture_format.pvrtc" type="bool">false</key>
+		<key name="tizen.org/feature/opengles.texture_format.utc" type="bool">false</key>
+		<key name="tizen.org/feature/opengles.version.1_1" type="bool">true</key>
+		<key name="tizen.org/feature/opengles.version.2_0" type="bool">true</key>
+		<key name="tizen.org/feature/platform.core.cpu.arch.armv6" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.cpu.arch.armv7" type="bool">true</key>
+		<key name="tizen.org/feature/platform.core.cpu.arch.x86" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.fpu.arch.sse2" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.fpu.arch.sse3" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.fpu.arch.ssse3" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.fpu.arch.vfpv2" type="bool">false</key>
+		<key name="tizen.org/feature/platform.core.fpu.arch.vfpv3" type="bool">true</key>
+		<key name="tizen.org/feature/platform.native.api.version" type="string">2.2</key>
+		<key name="tizen.org/feature/platform.native.osp_compatible" type="bool">true</key>
+		<key name="tizen.org/feature/platform.web.api.version" type="string">2.2</key>
+		<key name="tizen.org/feature/screen.auto_rotation" type="bool">true</key>
+		<key name="tizen.org/feature/screen.bpp" type="int">32</key>
+		<key name="tizen.org/feature/screen.coordinate_system.size.large" type="bool">true</key>
+		<key name="tizen.org/feature/screen.coordinate_system.size.normal" type="bool">false</key>
+		<key name="tizen.org/feature/screen.dpi" type="int">72</key>
+		<key name="tizen.org/feature/screen.output.hdmi" type="bool">true</key>
+		<key name="tizen.org/feature/screen.output.rca" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.large" type="bool">true</key>
+		<key name="tizen.org/feature/screen.size.normal" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.240.400" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.320.480" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.480.800" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.540.960" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.600.1024" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.720.1280" type="bool">false</key>
+		<key name="tizen.org/feature/screen.size.normal.1080.1920" type="bool">false</key>
+		<key name="tizen.org/feature/screen.width" type="int">1280</key>
+		<key name="tizen.org/feature/screen.height" type="int">720</key>
+		
+		<key name="tizen.org/feature/sensor.accelerometer" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.accelerometer.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.barometer" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.barometer.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.gyroscope" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.gyroscope.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.magnetometer" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.magnetometer.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.photometer" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.photometer.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.proximity" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.proximity.wakeup" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.tiltmeter" type="bool">false</key>
+		<key name="tizen.org/feature/sensor.tiltmeter.wakeup" type="bool">false</key>
+
+		<key name="tizen.org/feature/shell.appwidget" type="bool">true</key>
+		<key name="tizen.org/feature/sip.voip" type="bool">false</key>
+		<key name="tizen.org/feature/speech.recognition" type="bool">false</key>
+		<key name="tizen.org/feature/speech.synthesis" type="bool">true</key>
+		<key name="tizen.org/feature/usb.accessory" type="bool">true</key>
+		<key name="tizen.org/feature/usb.host" type="bool">true</key>
+		<key name="tizen.org/feature/vision.face_recognition" type="bool">true</key>
+		<key name="tizen.org/feature/vision.image_recognition" type="bool">true</key>
+		<key name="tizen.org/feature/vision.qrcode_generation" type="bool">true</key>
+		<key name="tizen.org/feature/vision.qrcode_recognition" type="bool">true</key>
+		<key name="tizen.org/system/sound.media.volume.resolution.max" type="int">15</key>
+		<key name="tizen.org/system/sound.notification.volume.resolution.max" type="int">15</key>
+		<key name="tizen.org/system/sound.ringtone.volume.resolution.max" type="int">15</key>
+		<key name="tizen.org/system/sound.system.volume.resolution.max" type="int">15</key>
+		<key name="tizen.org/feature/profile" type="string">mobile-full</key>
+	</platform>
+	<custom>
+	</custom>
+</model-config>
