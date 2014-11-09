@@ -1,0 +1,32 @@
+Description: Packages for ODROID-U3 target
+Name: target-odroid-u3
+Packages:
+- alsa-scenario-scn-data-0-wm1811
+- bluetooth-firmware-bcm-e4412
+- charging-animation
+- device-manager-plugin-exynos
+- gst-plugins-e4x12
+- gst-plugins-fimcconvert
+- libomxil-e4x12
+- libtbm-exynos4412
+- mfc-firmware-e4412
+- mmfw-sysconf-cleansdk-e4x12
+- model-config-odroid-u3
+- my-account
+- nfc-plugin-65nxp
+- nfc-plugin-nxp
+- opengl-es-virtual-drv
+- org.tizen.mobileprint
+- powertop
+- print-service
+- print-driver-data
+- pygobject
+- rfkill
+- sensor-plugins
+- system-plugin-slp
+- systemd-console-ttySAC2
+- tel-plugin-imc
+- tel-plugin-imcmodem
+- xorg-x11-drv-exynos
+- xorg-x11-misc-exynos
+Summary: Packages for ODROID-U3
